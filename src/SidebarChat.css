@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,700");
+.sidebarChat {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.roomName {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    opacity: 110%;
+    font-weight: 545;
+    letter-spacing: 3px;
+}
+
+.lastseen {
+    font-weight: 200;
+    font-family: 'Raleway', sans-serif;
+    opacity: 70%;
+    color: white;
+}
+
+.startchat {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
+.sidebarChat:hover {
+    background-color: #F7B661;
+}
+
+.sidebarChatInfo {
+    margin-left: 15px;
+}
+
+.sidebarChatInfo>h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}

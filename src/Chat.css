@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,700");
+.chat {
+    flex: 0.67;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+
+.chatHeader {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #030303;
+    font-family: 'Raleway', sans-serif;
+}
+
+.chatHeaderInfo {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.chatHeaderInfo>h3 {
+    margin-bottom: 3px;
+    font-weight: 510;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.chatHeaderInfo>p {
+    color: gray;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.chatHeaderRight {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+}
+
+.chatBody {
+    flex: 1;
+    background-color: #171717;
+    padding: 30px;
+    overflow-y: scroll;
+}
+
+.chatMessage {
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    background-color: #252525;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+
+.chatName {
+    position: absolute;
+    top: -15px;
+    font-weight: 800;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.chatTimestamp {
+    margin-left: 10px;
+    font-size: x-small;
+}
+
+.chatReceiver {
+    margin-left: auto;
+    background-color: #2c75fd;
+    color: whitesmoke;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+
+.chatFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    background-color: #252331;
+}
+
+.chatFooter>form {
+    flex: 1;
+    display: flex;
+}
+
+.chatFooter>form>input {
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    background-color: #1e1c26;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.chatFooter>form>button {
+    display: none;
+}
+
+.chatFooter>.MuiSvgIcon-root {
+    padding: 10px;
+    color: white;
+}

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,700");
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.33;
+}
+
+.sidebarHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-right: 1px solid lightgray;
+    background-color: #030303;
+}
+
+.MuiIconButton-root {
+    color: white !important;
+    opacity: 110%;
+}
+
+.sidebarSearch {
+    display: flex;
+    align-items: center;
+    background-color: #030303;
+    color: white;
+    height: 40px;
+    padding: 9px;
+}
+
+.sidebarSearchContainer>.MuiSvgIcon-root {
+    color: gray;
+    padding: 7px;
+}
+
+.sidebarSearchContainer>input {
+    border: none;
+    margin-left: 10px;
+    width: 60%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.sidebarSearchContainer {
+    display: flex;
+    align-self: center;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.sidebarHeaderRight {
+    display: flex;
+    align-items: center;
+    min-width: 10vw;
+    justify-content: space-between;
+}
+
+.sidebarHeaderRight>.MuiSvgIcon-root {
+    margin-right: 2vw;
+    font-size: 24px !important;
+}
+
+.sidebarChats {
+    background-color: #030303;
+    color: white;
+    flex: 1;
+    /* might want to use it later */
+    /* overflow-y: scroll; */
+}
